@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISA Y FORMULARIO</title>
+</head>
+<body style="background-color: rgba(131, 189, 243, 0.788);">
+    <header>
+        <img src="/IMG/INCAP.png" width="100" heright="100" alt="incap">
+        <h1>LISTAS EN HTML</h1>
+        <h2>MENU NAVEGACION</h2>
+</header>
+<nav>
+<ul>
+    <li type="disc" style="color: red;">Home</li>
+    <li type="square">productos</li>
+    <li type="circle">Servicios</li>
+    <li>Contacto</li>
+</ul>
+</nav>
+<section>
+    <forma action="datos-php" method="post">
+<!-- seccion de marco de formulario -->
+<fieldset>
+<!-- Seciion de ingreso de nombre -->
+<label >Nombre Completo:</label>
+<input name="nombre" type="text" placeholder="Ingrese su Nombre completo" requiered="">
+<br><br>
+
+<!-- seccion email -->
+<label>E-email:</label>
+<input name="contraseña" type="password" placeholder="ingrese su contraseña"
+requered="">
+<br><br>
+
+<!-- seccion contraseña -->
+<label>Contraseña:</label>
+<input name="contraseña" type="password" placeholder="Ingrese su contraseña"
+requiered?="">
+<br><br>
+
+    <!-- Seccion Hobbies -->
+    <label>Seleccione tus Hobbies:
+    </label>
+    <br>
+        <input name="cine" type="checkbox">cine<br>
+        <input name="lectura" type="checkbox">lectura<br>
+        <input name="Deporte" type="checkbox">Deporte<br>
+<br>
+<br>
+
+<!-- Estado Civil -->
+
+<label>Estado civil:</label><br>
+        <input name="estcivil" type="radio" value="casado">Casado(a)<br>
+        <input name="estcivil" type="radio" value="soltero">soltero(a)<br>
+        <input name="estcivil" type="radio" value="Viudo">Viudo(a)<br>
+<br>
+<br>
+
+<!-- Seleccionar opcion lista -->
+<label>PROGRAMAS TECNICOS:</label>
+<select Name="select">
+    <option>seleccione programa...</option>
+    <option>Sistemas</option>
+    <option>Diseño grafico</option>
+    <option>Contabilidad</option>
+</select>
+<br>
+<br>
+<label>Tu comentario:</label>
+    <textarea name="mensaje" rows="s" cols="40"></textarea>
+</fieldest>
+<br><br>
+<!-- Seleccion de botones formulario submir : enviar datos cancel: borrar Datos ingresados -->
+<button tyipe="submit">Enviar</button>
+<button type="reset">Cancelar</button>
+<br>
+<br>
+</section>
+    <!-- Seccion de pie de pagina -->
+<footer>
+    Derechos reservados &copy;2022&#64;NOMBRE  STD
+</footer>
+</body>
+</html>
